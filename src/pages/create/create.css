@@ -1,0 +1,8 @@
+.create-todo-form{
+    background: rbg(244,244,244);
+    padding: 1rem;
+}
+.create-todo-form .form-title{
+    font-size: 16px;
+    font-weight: 600;
+}

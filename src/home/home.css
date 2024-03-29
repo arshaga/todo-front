@@ -1,0 +1,40 @@
+.header-bar{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0.4rem 0.7rem;
+    top:3.6rem;
+    position: sticky;
+}
+.todo-list.table thead th{
+    position: sticky;
+    top: 0;
+    background: black;
+    color: white;
+    justify-content: center;
+}
+.tod-list.table tbody tr:first-child td{
+    border-top:1 rem solid#ffff ;
+}
+.todo-list.table tbody td{
+    padding: 0.4rem 0;
+    border: 0;
+}
+.todo-list.table .td-data{
+    background: rgb(193, 186, 186);
+    height: 2.5rem;
+    padding: 0.5rem;
+}
+.todo-list-table-cont{
+    height: 18rem;
+    overflow:hidden;
+    overflow-y:scroll ;
+}
+
+
+.td-data{
+    margin: 0px 3px;
+}
+.todo-list-table-cont.big{
+    height: 28rem;
+}
